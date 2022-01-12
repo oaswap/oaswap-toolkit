@@ -18,6 +18,7 @@ import CakePrice from "../CakePrice/CakePrice";
 import { LogoIcon, LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
+import styled from "styled-components";
 
 const MenuItem: React.FC<FooterProps> = ({
   items,
@@ -35,10 +36,10 @@ const MenuItem: React.FC<FooterProps> = ({
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
           {/* <LogoWithTextIcon isDark width="130px" /> */}
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <StyledLogo style={{ display: "flex", alignItems: "center" }}>
             <LogoIcon className="footer-logo-icon" />
             <div className="footer-logo-name">Oaswap</div>
-          </div>
+          </StyledLogo>
         </StyledIconMobileContainer>
         <Flex
           order={[2, null, 1]}
@@ -71,10 +72,10 @@ const MenuItem: React.FC<FooterProps> = ({
           ))}
           <Box display={["none", null, "block"]}>
             {/* <LogoWithTextIcon isDark width="160px" /> */}
-            <div style={{ display: "flex", alignItems: "center" }}>
+            <StyledLogo style={{ display: "flex", alignItems: "center" }}>
               <LogoIcon className="footer-logo-icon" />
               <div className="footer-logo-name">Oaswap</div>
-            </div>
+            </StyledLogo>
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
@@ -112,5 +113,21 @@ const MenuItem: React.FC<FooterProps> = ({
     </StyledFooter>
   );
 };
+
+const StyledLogo = styled.div`
+  display: flex;
+  align-items: center;
+
+  & .footer-logo-icon {
+    width: 32px;
+    display: block;
+  }
+  & .footer-logo-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 14px;
+  }
+`;
 
 export default MenuItem;
