@@ -14,10 +14,10 @@ const Icon: React.FC<SvgProps> = (props) => {
           y2="149.98"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#1fc7d4" />
-          <stop offset="0.54" stop-color="#562d99" />
-          <stop offset="0.57" stop-color="#5a31a0" />
-          <stop offset="1" stop-color="#9a6bff" />
+          <stop offset="0" stopColor="#1fc7d4" />
+          <stop offset="0.54" stopColor="#562d99" />
+          <stop offset="0.57" stopColor="#5a31a0" />
+          <stop offset="1" stopColor="#9a6bff" />
         </linearGradient>
       </defs>
       <path
