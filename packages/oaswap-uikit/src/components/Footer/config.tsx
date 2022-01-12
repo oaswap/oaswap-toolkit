@@ -75,7 +75,7 @@ export const footerLinks: FooterLinkType[] = [
   },
 ];
 
-export const socials = [
+export const socials: FooterLinkType[] = [
   {
     label: "Twitter",
     icon: "Twitter",
