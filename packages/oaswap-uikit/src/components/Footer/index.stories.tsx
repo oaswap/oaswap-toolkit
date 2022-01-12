@@ -19,6 +19,7 @@ const Template: React.FC<FooterProps> = ({ ...args }) => {
 };
 
 export const Default = Template.bind({});
+
 Default.args = {
   items: footerLinks,
   isDark: true,
@@ -27,5 +28,5 @@ Default.args = {
   setLang: noop,
   currentLang: "EN",
   cakePriceUsd: 0.023158668932877668,
-  buyCakeLabel: "Buy CAKE",
+  buyCakeLabel: "Buy OAS",
 };
