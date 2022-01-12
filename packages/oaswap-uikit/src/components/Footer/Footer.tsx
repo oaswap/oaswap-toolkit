@@ -15,7 +15,7 @@ import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
 import CakePrice from "../CakePrice/CakePrice";
-import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
+import { LogoIcon, LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
 
@@ -34,7 +34,11 @@ const MenuItem: React.FC<FooterProps> = ({
     <StyledFooter p={["40px 16px", null, "56px 40px 32px 40px"]} {...props} justifyContent="center">
       <Flex flexDirection="column" width={["100%", null, "1200px;"]}>
         <StyledIconMobileContainer display={["block", null, "none"]}>
-          <LogoWithTextIcon isDark width="130px" />
+          {/* <LogoWithTextIcon isDark width="130px" /> */}
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <LogoIcon className="footer-logo-icon" />
+            <div className="footer-logo-name">Oaswap</div>
+          </div>
         </StyledIconMobileContainer>
         <Flex
           order={[2, null, 1]}

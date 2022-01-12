@@ -40,6 +40,16 @@ const StyledLink = styled(Link)`
     font-size: 20px;
     margin-left: 14px;
   }
+  .footer-logo-icon {
+    width: 32px;
+    display: block;
+  }
+  .footer-logo-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 14px;
+  }
   .right-eye {
     animation-delay: 20ms;
   }
