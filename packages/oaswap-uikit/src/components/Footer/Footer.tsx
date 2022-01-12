@@ -70,7 +70,11 @@ const MenuItem: React.FC<FooterProps> = ({
             </StyledList>
           ))}
           <Box display={["none", null, "block"]}>
-            <LogoWithTextIcon isDark width="160px" />
+            {/* <LogoWithTextIcon isDark width="160px" /> */}
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <LogoIcon className="footer-logo-icon" />
+              <div className="footer-logo-name">Oaswap</div>
+            </div>
           </Box>
         </Flex>
         <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
