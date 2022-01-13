@@ -7,7 +7,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.oaswap.xyz/contact-us",
+        href: "https://docs.oaswap.finance/contact-us",
       },
       {
         label: "Blog",
@@ -15,11 +15,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Community",
-        href: "https://docs.oaswap.xyz/contact-us/telegram",
+        href: "https://docs.oaswap.finance/contact-us/telegram",
       },
       {
         label: "OAS",
-        href: "https://docs.oaswap.xyz/tokenomics/cake",
+        href: "https://docs.oaswap.finance/tokenomics/cake",
       },
       // {
       //   label: "—",
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.oaswap.xyz/contact-us/customer-support",
+        href: "Support https://docs.oaswap.finance/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.oaswap.xyz/help/troubleshooting",
+        href: "https://docs.oaswap.finance/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.oaswap.xyz/get-started",
+        href: "https://docs.oaswap.finance/get-started",
       },
     ],
   },
@@ -57,7 +57,7 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Documentation",
-        href: "https://docs.oaswap.xyz",
+        href: "https://docs.oaswap.finance",
       },
       // {
       //   label: "Bug Bounty",
@@ -65,11 +65,11 @@ export const footerLinks: FooterLinkType[] = [
       // },
       {
         label: "Audits",
-        href: "https://docs.oaswap.xyz/help/faq#is-oaswap-safe-has-oaswap-been-audited",
+        href: "https://docs.oaswap.finance/help/faq#is-oaswap-safe-has-oaswap-been-audited",
       },
       // {
       //   label: "Careers",
-      //   href: "https://docs.oaswap.xyz/hiring/become-a-chef",
+      //   href: "https://docs.oaswap.finance/hiring/become-a-chef",
       // },
     ],
   },

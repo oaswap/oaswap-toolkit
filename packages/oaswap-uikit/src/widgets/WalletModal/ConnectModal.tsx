@@ -80,7 +80,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null, displayC
           </Text>
           <Button
             as="a"
-            href="https://docs.oaswap.xyz/get-started/connection-guide"
+            href="https://docs.oaswap.finance/get-started/connection-guide"
             variant="subtle"
             width="100%"
             {...getExternalLinkProps()}

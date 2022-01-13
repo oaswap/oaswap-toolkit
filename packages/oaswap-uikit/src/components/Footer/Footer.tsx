@@ -100,7 +100,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://oaswap.xyz/swap?outputCurrency=xxxxxx"
+              href="https://oaswap.finance/swap?outputCurrency=xxxxxx"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
