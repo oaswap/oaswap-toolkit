@@ -7,7 +7,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.oaswap.finance/contact-us",
+        href: "https://docs.oaswap.finance/links",
       },
       {
         label: "Blog",
@@ -15,11 +15,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Community",
-        href: "https://docs.oaswap.finance/contact-us/telegram",
+        href: "https://docs.oaswap.finance/links",
       },
       {
         label: "OAS",
-        href: "https://docs.oaswap.finance/tokenomics/cake",
+        href: "https://docs.oaswap.finance/tokenomics/the-oas-token",
       },
       // {
       //   label: "—",
