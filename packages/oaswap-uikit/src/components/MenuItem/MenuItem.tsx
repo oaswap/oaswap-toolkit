@@ -22,9 +22,21 @@ const MenuItem: React.FC<MenuItemProps> = ({
       };
   return (
     <StyledMenuItemContainer $isActive={isActive} $variant={variant}>
-      <StyledMenuItem {...itemLinkProps} $isActive={isActive} $variant={variant} $statusColor={statusColor} {...props}>
-        {children}
-      </StyledMenuItem>
+      {absoluteLink ? (
+        <StyledMenuItem href={href} $isActive={isActive} $variant={variant} $statusColor={statusColor} {...props}>
+          {children}
+        </StyledMenuItem>
+      ) : (
+        <StyledMenuItem
+          {...itemLinkProps}
+          $isActive={isActive}
+          $variant={variant}
+          $statusColor={statusColor}
+          {...props}
+        >
+          {children}
+        </StyledMenuItem>
+      )}
     </StyledMenuItemContainer>
   );
 };
