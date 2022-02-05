@@ -15,7 +15,7 @@ const MenuItems: React.FC<MenuItemsProps> = ({ items = [], activeItem, activeSub
         const linkProps = isTouchDevice() && menuItems && menuItems.length > 0 ? {} : { href };
         return (
           <DropdownMenu key={`${label}#${href}#${icon}`} items={menuItems} py={1} activeItem={activeSubItem}>
-            <MenuItem {...linkProps} isActive={isActive} statusColor={statusColor}>
+            <MenuItem {...linkProps} isActive={isActive} statusColor={statusColor} absoluteLink={absoluteLink}>
               {label || <IconComponent iconName={icon} color={isActive ? "secondary" : "textSubtle"} />}
             </MenuItem>
           </DropdownMenu>
