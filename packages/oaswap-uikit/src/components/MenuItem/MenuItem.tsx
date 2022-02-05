@@ -9,6 +9,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
   isActive = false,
   variant = "default",
   statusColor,
+  absoluteLink,
   ...props
 }) => {
   const itemLinkProps: unknown = href
