@@ -8,6 +8,7 @@ export type MenuItemsType = {
   items?: DropdownMenuItems[];
   showOnMobile?: boolean;
   showItemsOnMobile?: boolean;
+  absoluteLink?: boolean;
 };
 
 export interface MenuItemsProps extends BoxProps {
