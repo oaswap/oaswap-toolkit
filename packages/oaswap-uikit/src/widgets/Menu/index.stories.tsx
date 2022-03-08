@@ -82,6 +82,7 @@ const defaultProps = {
   setLang: noop,
   currentLang: "EN",
   cakePriceUsd: 0.023158668932877668,
+  rosePriceUsd: 0.243158668932877668,
   links,
   subLinks: links[0].items,
   footerLinks,
